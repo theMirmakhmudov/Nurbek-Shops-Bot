@@ -260,7 +260,7 @@ async def shop(message: Message):
             caption="asus\n512gb\n8 operativka\n2023-yil\nnarxi:600$", reply_markup=asus.as_markup())
 
 
-async def main() -> None:
+async def main():
     bot = Bot(TOKEN, parse_mode=ParseMode.HTML)
     await dp.start_polling(bot)
 
